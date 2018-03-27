@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76A119A9206A464600D156E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A119A8206A464600D156E8 /* AppDelegate.swift */; };
+		76A119B1206A464600D156E8 /* HealthAtYourToetips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76A119AF206A464600D156E8 /* HealthAtYourToetips.xcdatamodeld */; };
+		76A119B3206A464600D156E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A119B2206A464600D156E8 /* Assets.xcassets */; };
+		76A119B6206A464600D156E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A119B4206A464600D156E8 /* LaunchScreen.storyboard */; };
+		76A119C1206A464600D156E8 /* HealthAtYourToetipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A119C0206A464600D156E8 /* HealthAtYourToetipsTests.swift */; };
+		76A119CC206A464600D156E8 /* HealthAtYourToetipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A119CB206A464600D156E8 /* HealthAtYourToetipsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76A119BD206A464600D156E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A1199D206A464600D156E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A119A4206A464600D156E8;
+			remoteInfo = HealthAtYourToetips;
+		};
+		76A119C8206A464600D156E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A1199D206A464600D156E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A119A4206A464600D156E8;
+			remoteInfo = HealthAtYourToetips;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76A119A5206A464600D156E8 /* HealthAtYourToetips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthAtYourToetips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A119A8206A464600D156E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76A119B0206A464600D156E8 /* HealthAtYourToetips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthAtYourToetips.xcdatamodel; sourceTree = "<group>"; };
+		76A119B2206A464600D156E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76A119B5206A464600D156E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76A119B7206A464600D156E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A119BC206A464600D156E8 /* HealthAtYourToetipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthAtYourToetipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A119C0206A464600D156E8 /* HealthAtYourToetipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAtYourToetipsTests.swift; sourceTree = "<group>"; };
+		76A119C2206A464600D156E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A119C7206A464600D156E8 /* HealthAtYourToetipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthAtYourToetipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A119CB206A464600D156E8 /* HealthAtYourToetipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAtYourToetipsUITests.swift; sourceTree = "<group>"; };
+		76A119CD206A464600D156E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A119A2206A464600D156E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A119B9206A464600D156E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A119C4206A464600D156E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76A1199C206A464600D156E8 = {
+			isa = PBXGroup;
+			children = (
+				76A119A7206A464600D156E8 /* HealthAtYourToetips */,
+				76A119BF206A464600D156E8 /* HealthAtYourToetipsTests */,
+				76A119CA206A464600D156E8 /* HealthAtYourToetipsUITests */,
+				76A119A6206A464600D156E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76A119A6206A464600D156E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A119A5206A464600D156E8 /* HealthAtYourToetips.app */,
+				76A119BC206A464600D156E8 /* HealthAtYourToetipsTests.xctest */,
+				76A119C7206A464600D156E8 /* HealthAtYourToetipsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A119A7206A464600D156E8 /* HealthAtYourToetips */ = {
+			isa = PBXGroup;
+			children = (
+				76A119A8206A464600D156E8 /* AppDelegate.swift */,
+				76A119B2206A464600D156E8 /* Assets.xcassets */,
+				76A119B4206A464600D156E8 /* LaunchScreen.storyboard */,
+				76A119B7206A464600D156E8 /* Info.plist */,
+				76A119AF206A464600D156E8 /* HealthAtYourToetips.xcdatamodeld */,
+			);
+			path = HealthAtYourToetips;
+			sourceTree = "<group>";
+		};
+		76A119BF206A464600D156E8 /* HealthAtYourToetipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				76A119C0206A464600D156E8 /* HealthAtYourToetipsTests.swift */,
+				76A119C2206A464600D156E8 /* Info.plist */,
+			);
+			path = HealthAtYourToetipsTests;
+			sourceTree = "<group>";
+		};
+		76A119CA206A464600D156E8 /* HealthAtYourToetipsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76A119CB206A464600D156E8 /* HealthAtYourToetipsUITests.swift */,
+				76A119CD206A464600D156E8 /* Info.plist */,
+			);
+			path = HealthAtYourToetipsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A119A4206A464600D156E8 /* HealthAtYourToetips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A119D0206A464600D156E8 /* Build configuration list for PBXNativeTarget "HealthAtYourToetips" */;
+			buildPhases = (
+				76A119A1206A464600D156E8 /* Sources */,
+				76A119A2206A464600D156E8 /* Frameworks */,
+				76A119A3206A464600D156E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthAtYourToetips;
+			productName = HealthAtYourToetips;
+			productReference = 76A119A5206A464600D156E8 /* HealthAtYourToetips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76A119BB206A464600D156E8 /* HealthAtYourToetipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A119D3206A464600D156E8 /* Build configuration list for PBXNativeTarget "HealthAtYourToetipsTests" */;
+			buildPhases = (
+				76A119B8206A464600D156E8 /* Sources */,
+				76A119B9206A464600D156E8 /* Frameworks */,
+				76A119BA206A464600D156E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A119BE206A464600D156E8 /* PBXTargetDependency */,
+			);
+			name = HealthAtYourToetipsTests;
+			productName = HealthAtYourToetipsTests;
+			productReference = 76A119BC206A464600D156E8 /* HealthAtYourToetipsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76A119C6206A464600D156E8 /* HealthAtYourToetipsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A119D6206A464600D156E8 /* Build configuration list for PBXNativeTarget "HealthAtYourToetipsUITests" */;
+			buildPhases = (
+				76A119C3206A464600D156E8 /* Sources */,
+				76A119C4206A464600D156E8 /* Frameworks */,
+				76A119C5206A464600D156E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A119C9206A464600D156E8 /* PBXTargetDependency */,
+			);
+			name = HealthAtYourToetipsUITests;
+			productName = HealthAtYourToetipsUITests;
+			productReference = 76A119C7206A464600D156E8 /* HealthAtYourToetipsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A1199D206A464600D156E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = casenderqiu;
+				TargetAttributes = {
+					76A119A4206A464600D156E8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					76A119BB206A464600D156E8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76A119A4206A464600D156E8;
+					};
+					76A119C6206A464600D156E8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76A119A4206A464600D156E8;
+					};
+				};
+			};
+			buildConfigurationList = 76A119A0206A464600D156E8 /* Build configuration list for PBXProject "HealthAtYourToetips" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76A1199C206A464600D156E8;
+			productRefGroup = 76A119A6206A464600D156E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A119A4206A464600D156E8 /* HealthAtYourToetips */,
+				76A119BB206A464600D156E8 /* HealthAtYourToetipsTests */,
+				76A119C6206A464600D156E8 /* HealthAtYourToetipsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A119A3206A464600D156E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A119B6206A464600D156E8 /* LaunchScreen.storyboard in Resources */,
+				76A119B3206A464600D156E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A119BA206A464600D156E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A119C5206A464600D156E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A119A1206A464600D156E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A119B1206A464600D156E8 /* HealthAtYourToetips.xcdatamodeld in Sources */,
+				76A119A9206A464600D156E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A119B8206A464600D156E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A119C1206A464600D156E8 /* HealthAtYourToetipsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A119C3206A464600D156E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A119CC206A464600D156E8 /* HealthAtYourToetipsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76A119BE206A464600D156E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A119A4206A464600D156E8 /* HealthAtYourToetips */;
+			targetProxy = 76A119BD206A464600D156E8 /* PBXContainerItemProxy */;
+		};
+		76A119C9206A464600D156E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A119A4206A464600D156E8 /* HealthAtYourToetips */;
+			targetProxy = 76A119C8206A464600D156E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76A119B4206A464600D156E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A119B5206A464600D156E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A119CE206A464600D156E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76A119CF206A464600D156E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A119D1206A464600D156E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QT2Y66Z83;
+				INFOPLIST_FILE = HealthAtYourToetips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.casenderqiu.HealthAtYourToetips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76A119D2206A464600D156E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QT2Y66Z83;
+				INFOPLIST_FILE = HealthAtYourToetips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.casenderqiu.HealthAtYourToetips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76A119D4206A464600D156E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QT2Y66Z83;
+				INFOPLIST_FILE = HealthAtYourToetipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.casenderqiu.swift.HealthAtYourToetipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthAtYourToetips.app/HealthAtYourToetips";
+			};
+			name = Debug;
+		};
+		76A119D5206A464600D156E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QT2Y66Z83;
+				INFOPLIST_FILE = HealthAtYourToetipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.casenderqiu.swift.HealthAtYourToetipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthAtYourToetips.app/HealthAtYourToetips";
+			};
+			name = Release;
+		};
+		76A119D7206A464600D156E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QT2Y66Z83;
+				INFOPLIST_FILE = HealthAtYourToetipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.casenderqiu.swift.HealthAtYourToetipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthAtYourToetips;
+			};
+			name = Debug;
+		};
+		76A119D8206A464600D156E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QT2Y66Z83;
+				INFOPLIST_FILE = HealthAtYourToetipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.casenderqiu.swift.HealthAtYourToetipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthAtYourToetips;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A119A0206A464600D156E8 /* Build configuration list for PBXProject "HealthAtYourToetips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A119CE206A464600D156E8 /* Debug */,
+				76A119CF206A464600D156E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A119D0206A464600D156E8 /* Build configuration list for PBXNativeTarget "HealthAtYourToetips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A119D1206A464600D156E8 /* Debug */,
+				76A119D2206A464600D156E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A119D3206A464600D156E8 /* Build configuration list for PBXNativeTarget "HealthAtYourToetipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A119D4206A464600D156E8 /* Debug */,
+				76A119D5206A464600D156E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A119D6206A464600D156E8 /* Build configuration list for PBXNativeTarget "HealthAtYourToetipsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A119D7206A464600D156E8 /* Debug */,
+				76A119D8206A464600D156E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76A119AF206A464600D156E8 /* HealthAtYourToetips.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76A119B0206A464600D156E8 /* HealthAtYourToetips.xcdatamodel */,
+			);
+			currentVersion = 76A119B0206A464600D156E8 /* HealthAtYourToetips.xcdatamodel */;
+			path = HealthAtYourToetips.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76A1199D206A464600D156E8 /* Project object */;
+}
