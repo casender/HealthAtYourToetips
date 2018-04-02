@@ -14,6 +14,7 @@ protocol LoginView: class {
 
 protocol LoginViewPresenter {
     func viewDidLoad()
+    func leftBarButtonPressed()
 }
 
 class LoginViewPresenterImplementation: LoginViewPresenter {
@@ -28,5 +29,9 @@ class LoginViewPresenterImplementation: LoginViewPresenter {
     // MARK: - LoginViewPresenter
     func viewDidLoad() {
         
+    }
+    
+    func leftBarButtonPressed() {
+        router.goToStartPage()
     }
 }

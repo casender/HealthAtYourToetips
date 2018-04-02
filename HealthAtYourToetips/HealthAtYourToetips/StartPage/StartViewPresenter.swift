@@ -6,14 +6,15 @@
 //  Copyright © 2018 casenderqiu. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 protocol StartView: class {
     
 }
 
 protocol StartViewPresenter {
-    
+    func loginButtonPressed()
+    func customizeButton(_ button: UIButton)
 }
 
 class StartViewPresenterImplementation: StartViewPresenter {
@@ -25,5 +26,13 @@ class StartViewPresenterImplementation: StartViewPresenter {
         self.router = router
     }
     
+    func loginButtonPressed() {
+        router.goBackToLoginPage()
+    }
     
+    func customizeButton(_ button: UIButton) {
+        button.layer.cornerRadius = button.frame.height / 2
+        button.layer.borderWidth = 1
+        button.layer.borderColor = UIColor.white.cgColor
+    }
 }

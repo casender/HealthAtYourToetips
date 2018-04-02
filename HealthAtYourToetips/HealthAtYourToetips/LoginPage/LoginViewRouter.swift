@@ -9,7 +9,7 @@
 import UIKit
 
 protocol LoginViewRouter {
-    func goBackToStartPage()
+    func goToStartPage()
 }
 
 class LoginViewRouterImplementation: LoginViewRouter {
@@ -20,7 +20,7 @@ class LoginViewRouterImplementation: LoginViewRouter {
     }
     
     //MARK: - LoginViewRouter
-    func goBackToStartPage() {
+    func goToStartPage() {
         loginViewController?.present(StartViewController(), animated: true, completion: nil)
     }
     

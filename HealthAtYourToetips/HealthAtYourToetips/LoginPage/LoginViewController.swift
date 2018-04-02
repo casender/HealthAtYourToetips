@@ -24,13 +24,13 @@ class LoginViewController: UIViewController, LoginView {
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
         
-        let leftBarButton = UIBarButtonItem(image: #imageLiteral(resourceName: "back"), style: .plain, target: self, action: #selector(goBackToStartPage))
+        let leftBarButton = UIBarButtonItem(image: #imageLiteral(resourceName: "back"), style: .plain, target: self, action: #selector(leftBarButtonPressed))
         leftBarButton.tintColor = UIColor.white
         self.navigationItem.leftBarButtonItem = leftBarButton
     }
     
-    @objc func goBackToStartPage() {
-        
+    @objc func leftBarButtonPressed() {
+        presenter.leftBarButtonPressed()
     }
 
     override func didReceiveMemoryWarning() {

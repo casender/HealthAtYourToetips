@@ -9,7 +9,7 @@
 import UIKit
 
 protocol StartViewRouter {
-    
+    func goBackToLoginPage()
 }
 
 class StartViewRouterImplementation: StartViewRouter {
@@ -20,5 +20,7 @@ class StartViewRouterImplementation: StartViewRouter {
     }
     
     // MARK: - StartViewRouter
-    
+    func goBackToLoginPage() {
+        startViewController?.dismiss(animated: true, completion: nil)
+    }
 }
