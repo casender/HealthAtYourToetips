@@ -16,7 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        //change status bar color
+        UIApplication.shared.statusBarStyle = .lightContent
+        
+        goToFirstPage()
         return true
     }
 
@@ -44,6 +47,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.saveContext()
     }
 
+    func goToFirstPage() {
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let loginViewNav = UINavigationController(rootViewController: LoginViewController())
+        self.window?.rootViewController = loginViewNav
+        self.window?.makeKeyAndVisible()
+    }
+    
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {
