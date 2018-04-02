@@ -8,15 +8,20 @@
 
 import UIKit
 
-class LoginViewController: UIViewController, LoginView {
+class LoginViewController: UIViewController, LoginView, UITextFieldDelegate {
     let configurator = LoginViewConfiguratorImplementation()
     var presenter: LoginViewPresenter!
+    
+    @IBOutlet weak var backgroundImageView: UIImageView!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
         configurator.configure(loginViewController: self)
-        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        addResignGestureToBackground()
     }
     
     func setupNavigationBar() {
@@ -27,6 +32,24 @@ class LoginViewController: UIViewController, LoginView {
         let leftBarButton = UIBarButtonItem(image: #imageLiteral(resourceName: "back"), style: .plain, target: self, action: #selector(leftBarButtonPressed))
         leftBarButton.tintColor = UIColor.white
         self.navigationItem.leftBarButtonItem = leftBarButton
+    }
+    
+    func addResignGestureToBackground() {
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+        self.view.addGestureRecognizer(tapGesture)
+    }
+    
+    @objc func keyboardWillHide() {
+        if emailTextField.text == "" {
+            emailTextField.text = "EMAIL"
+        }
+        if passwordTextField.text == "" {
+            passwordTextField.text = "PASSWORD"
+        }
+    }
+    
+    @objc func hideKeyboard() {
+        view.endEditing(true)
     }
     
     @objc func leftBarButtonPressed() {
@@ -40,4 +63,13 @@ class LoginViewController: UIViewController, LoginView {
     
     //MARK: - LoginView
     
+    
+    //MARK: - TextFieldDelegate
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        let textFieldText = textField.text
+        if textFieldText == "EMAIL" || textFieldText == "PASSWORD" {
+            textField.text = ""
+        }
+        return true
+    }
 }

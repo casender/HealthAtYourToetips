@@ -12,6 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="HealthAtYourToetips" customModuleProvider="target">
             <connections>
+                <outlet property="backgroundImageView" destination="1bN-G3-EKO" id="2dX-vm-e6R"/>
+                <outlet property="emailTextField" destination="KwE-hz-BZN" id="wKo-7G-NDl"/>
+                <outlet property="passwordTextField" destination="eQV-Iy-ucJ" id="unb-I9-2lV"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -50,6 +53,9 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="tbw-T9-dLx"/>
+                            </connections>
                         </textField>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8OU-La-Cce" userLabel="PasswordUnderLine">
                             <rect key="frame" x="0.0" y="24" width="335" height="1"/>
@@ -81,6 +87,9 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="sEO-0k-bDJ"/>
+                            </connections>
                         </textField>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vOA-vq-XCA" userLabel="PasswordUnderLine">
                             <rect key="frame" x="0.0" y="24" width="335" height="1"/>
